@@ -27,7 +27,7 @@ autocmd BufNewFile,BufRead *.md,*.mkd,*.markdown set spell spelllang=en_us
 2)Go to highligted word and press `z=` to get list of suggestions
 3)In normal mode press `]s` & `[s` to navigate left and righ highlighted word respectively
 ```
-#Make sure to use Vim as default editior for Git
+#Make sure to use Vim as default editor for Git
 ```
 git config --global core.editor "vim"
 ```
