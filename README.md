@@ -27,6 +27,11 @@ autocmd BufNewFile,BufRead *.md,*.mkd,*.markdown set spell spelllang=en_us
 2)Go to highligted word and press `z=` to get list of suggestions
 3)In normal mode press `]s` & `[s` to navigate left and righ highlighted word respectively
 ```
+#Make sure to use Vim as default editior for Git
+```
+git config --global core.editor "vim"
+```
 #References
 1)http://vimdoc.sourceforge.net/htmldoc/spell.html
 2)http://vim.wikia.com/wiki/Dictionary_completions
+
